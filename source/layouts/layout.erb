@@ -45,7 +45,6 @@
             </span>
             <span class="header__title">
               Verify
-              <span class="phase-banner">Beta</span>
             </span>
           </a>
         </div>
@@ -58,9 +57,9 @@
               <%
                 {
                   'About' => '/',
-                  'Get Started' => 'http://alphagov.github.io/rp-onboarding-tech-docs/index.html',
+                  'Get Started' => '/get-started-check-verify-is-right',
                   'Documentation' => 'http://alphagov.github.io/identity-assurance-documentation/',
-                  'Support' => 'verify/suppport'
+                  'Support' => '/support'
                 }.each do |title, url|
               %>
                 <li<% if url == current_page.url %> class="active" "aria-current"="page"<% end %>>
@@ -81,6 +80,46 @@
 
     <footer class="group js-footer" id="footer" role="contentinfo">
       <div class="footer-wrapper">
+        <div class="footer-categories">
+          <div class="footer-categories-wrapper">
+            <div class="grid-row">
+              <div class="column-one-third">
+                <h2>About</h2>
+                <ul>
+                  <li>
+                    <a href="/verify">
+                      GOV.UK Verify overview
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/get-started-check-verify-is-right">
+                      Get started
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="column-one-third">
+                <h2>Support</h2>
+                <ul>
+                  <li>
+                    <a href="/support">
+                      Contact
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="http://alphagov.github.io/identity-assurance-documentation/">Documentation</a>
+                  </li>
+                  <li>
+                    <a href="https://verifystatus.digital.cabinet-office.gov.uk">
+                      System status
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <div class="footer-meta">
           <div class="footer-meta-inner">

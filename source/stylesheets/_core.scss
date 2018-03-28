@@ -52,7 +52,7 @@ body {
 // scss-lint:disable IdSelector
 #main {
   display: block;
-  margin-bottom: $gutter * 3;
+  margin-bottom: $gutter * 1;
 }
 // scss-lint:enable IdSelector
 
@@ -79,4 +79,21 @@ a:active {
 .services-link {
   clear: both;
   padding-top: 30px;
+}
+
+.lede{
+  		@include core-24;
+        // margin-bottom: 30px;
+	}
+
+.lede.list{
+	margin-bottom: 2em;
+	li{
+		font-size: 1em;
+	}
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
