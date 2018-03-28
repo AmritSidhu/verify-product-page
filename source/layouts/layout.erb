@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 
-    <title><%= current_page.data.title && "#{current_page.data.title} – " %>GOV.UK Product Pages</title>
+    <title><%= current_page.data.title && "#{current_page.data.title} – " %>GOV.UK Verify</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -44,7 +44,7 @@
               GOV.UK
             </span>
             <span class="header__title">
-              Product Pages
+              Verify
               <span class="phase-banner">Beta</span>
             </span>
           </a>
@@ -58,8 +58,9 @@
               <%
                 {
                   'About' => '/',
-                  'Supplementary Pages' => '/supplementary.html',
-                  'Support' => '/support.html'
+                  'Get Started' => 'http://alphagov.github.io/rp-onboarding-tech-docs/index.html',
+                  'Documentation' => 'http://alphagov.github.io/identity-assurance-documentation/',
+                  'Support' => 'verify/suppport'
                 }.each do |title, url|
               %>
                 <li<% if url == current_page.url %> class="active" "aria-current"="page"<% end %>>
