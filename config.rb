@@ -2,7 +2,7 @@
 # Page options, layouts, aliases and proxies
 ###
 
-#removes .html
+#removes .html extensions
 activate :directory_indexes
 
 # Per-page layout changes:
