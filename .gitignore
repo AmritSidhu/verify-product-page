@@ -20,5 +20,9 @@
 # Ignore node modules
 /node_modules
 
+# Ignore Gem directories
+/.gems
+/.gem-bin
+
 # PaaS authentication file
 Staticfile.auth
