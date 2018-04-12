@@ -28,10 +28,10 @@ end
 
 # Google analytics
 # Analytics ID must be inside the single quotes as it’s string
-configure :development do
-  set :analytics, ""
+#configure :development do
+#  set :analytics, ""
 #   set :analytics, "'UA-XXXXXXXX-X'"
-end
+#end
 
 # Insert your Google Analytics ID below
 # configure :build do

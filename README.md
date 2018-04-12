@@ -4,7 +4,7 @@ This repository contains a number of [components](#components) that can be used
 to build 'product pages' for GOV.UK Products like [GOV.UK Pay], [GOV.UK
 Notify] and [GOV.UK Registers].
 
-![Screenshot of the example product page](screenshot.png)
+![Screenshot of the example product page](screensht.png)
 
 It is also a [middleman site](http://middlemanapp.com/) for the sole purpose of
 providing an _example_ of how to use the components to build a site. You do not
